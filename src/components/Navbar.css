@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-right: 50px;
+    gap: 50px;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    /* padding-right: 50px; */
+}
+
+nav ul a:hover{
+    color: #646cff;
+}
+nav img{
+    height: 180px;
+    width: 220px;
+    padding-left: 50px;
+    ;
+}
+
+nav ul li{
+    font-size: 18px;
+} 
+nav ul #contact li{
+    background-color: #fefefe;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(46, 33, 230);
+}
