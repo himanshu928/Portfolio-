@@ -1,4 +1,7 @@
 import "./Projects.css";
+import tictactoe from "../assets/tictactoe8090.png";
+import calculator from "../assets/calculator8090.png";
+import portfolio from "../assets/project1.png";
 
 const Projects = () => {
   return (
@@ -11,7 +14,7 @@ const Projects = () => {
 
       <div className="projects-grid">
         <div className="project-card">
-          <img src="/src/assets/project1.png" alt="Project" />
+          <img src={portfolio} alt="Project" />
 
           <h3>Portfolio Website</h3>
           <p>
@@ -34,7 +37,7 @@ const Projects = () => {
 
       <div className="projects-grid projects ">
         <div className="project-card">
-          <img src="/src/assets/tictactoe8090.png" alt="Project" />
+          <img src={tictactoe} alt="Project" />
 
           <h3>Tic Tac Toe Game</h3>
           <p>
@@ -57,7 +60,7 @@ const Projects = () => {
 
       <div className="projects-grid projects ">
         <div className="project-card">
-          <img src="/src/assets/calculator8090.png" alt="Project" />
+          <img src={calculator} alt="Project" />
 
           <h3>Calculator App</h3>
           <p>
