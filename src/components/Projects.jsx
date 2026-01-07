@@ -10,7 +10,7 @@ const Projects = () => {
 
       <div className="projects-grid">
         <div className="project-card">
-          <img src="/project1.png" alt="Project" />
+          <img src="/src/assets/project1.png" alt="Project" />
 
           <h3>Portfolio Website</h3>
           <p>
@@ -24,8 +24,8 @@ const Projects = () => {
           </div>
 
           <div className="project-links">
-            <a href="#">GitHub</a>
-            <a href="#">Live</a>
+            <a href="https://github.com/himanshu928" target="_blank">GitHub</a>
+            <a href="https://bucolic-centaur-5e3546.netlify.app/" target="_blank">Live</a>
           </div>
         </div>
       </div>

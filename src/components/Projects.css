@@ -45,6 +45,7 @@
 .project-card p {
   font-size: 0.9rem;
   color: #cbd5f5;
+  margin-bottom: 12px;
 }
 
 .tech-stack span {
