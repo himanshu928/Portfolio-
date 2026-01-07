@@ -1,4 +1,5 @@
 import "./HeroSection.css";
+import img from "../assets/myPic.jpg";
 
 function HeroSection() {
   return (
@@ -10,7 +11,7 @@ function HeroSection() {
 
         <h2>Frontend Developer (React)</h2>
 
-        <p>
+        <p className="hero-description">
           I build clean, responsive and user-friendly web interfaces
           using modern frontend technologies.
         </p>
@@ -26,7 +27,7 @@ function HeroSection() {
       </div>
         <div className="hero-right">
           <div className="hero-image">
-            <img src="/src/assets/myPic.jpg" alt="Hero Image" />
+            <img src={img} alt="Hero Image" />
           </div>
         </div>
     </section>

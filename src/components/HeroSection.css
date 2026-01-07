@@ -17,18 +17,21 @@
 }
 
 .hero-left h1 span {
-  color: #38bdf8;
+  color: #14b9ff;
+}
+.hero-left h1 span:hover{
+  color: #f3d31c;
 }
 
 .hero-left h2 {
   font-size: 26px;
-  color: #cbd5f5;
+  color: #57d657;
   margin-bottom: 20px;
 }
 
 .hero-left p {
-  font-size: 16px;
-  color: #94a3b8;
+  font-size: 18px;
+  color: #a4e3ee;
   line-height: 1.6;
   margin-bottom: 32px;
 }
@@ -47,22 +50,24 @@
 }
 
 .primary {
-  background-color: #38bdf8;
+  background-color: #2effff;
   color: #020617;
 }
 
 .primary:hover {
-  background-color: #0ea5e9;
+  background-color: #6bf31c;
+  font-weight: bold;
 }
 
 .secondary {
-  border: 1px solid #38bdf8;
+  border: 1px solid #f0ce12;
   color: #38bdf8;
 }
 
 .secondary:hover {
-  background-color: #38bdf8;
-  color: #020617;
+  background-color: #f7e331;
+  color: #000000;
+  font-weight: bold;
 }
 
 
@@ -83,6 +88,8 @@
     box-shadow: 6px 8px 16px rgba(0, 0, 0, 0.5);
     margin-left: 100px;
 }
+
+
 
 
 
@@ -107,12 +114,17 @@
 /* Image hover effect */
 
 .hero-right img {
-  transition: 0.4s ease;
+  
+    box-shadow: 0px 0px 50px rgb(19, 41, 165);
+  border-radius: 50%;
+  transition: all 0.6s ease;
 }
 
 .hero-right img:hover {
   transform: scale(1.04);
-  box-shadow: 0 12px 24px rgba(236, 236, 236, 0.6);
+  box-shadow: 0px 0px 50px rgb(185, 185, 185);
+
+
 }
 
 
