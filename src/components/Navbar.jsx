@@ -7,7 +7,7 @@ function Navbar() {
     <>
       <nav>
         <a href=""><img src={logoImage} alt="Logo" /></a>
-        <span>Himanshu</span>
+        <span>Himanshu Sahu</span>
         <ul>
           <a href="AboutMe.jsx"><li>Home</li></a>
           <a href="AboutMe.jsx"><li>About</li></a>
