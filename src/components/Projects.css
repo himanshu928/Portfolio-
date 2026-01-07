@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .projects {
   padding: 80px 10%;
   background: #0f172a;
@@ -12,7 +14,7 @@
 .section-subtitle {
   text-align: center;
   color: #94a3b8;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .projects-grid {
@@ -26,16 +28,19 @@
   border-radius: 15px;
   padding: 20px;
   transition: 0.3s ease;
+  ;
 }
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(132, 131, 131, 0.4);
 }
 
 .project-card img {
   width: 100%;
   border-radius: 10px;
+  height: auto;
+
 }
 
 .project-card h3 {
@@ -44,16 +49,19 @@
 
 .project-card p {
   font-size: 0.9rem;
-  color: #cbd5f5;
+  color: #eceffa;
   margin-bottom: 12px;
 }
 
 .tech-stack span {
-  background: #334155;
-  padding: 5px 10px;
+  background: #237b9c;
+  padding: 8px 12px;
   border-radius: 20px;
   font-size: 12px;
   margin-right: 8px;
+  color: #f3f0f1;
+  font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 .project-links {
@@ -67,6 +75,17 @@
   padding: 8px 15px;
   border-radius: 8px;
   font-size: 14px;
+}
+
+.project-links .first-link:hover {
+  background-color: rgb(47, 243, 8);
+  color: #022b58;
+  font-weight: bold;
+}
+.project-links .live-link:hover {
+  background-color: #ea0404;
+  color: #f1f5f9;
+  font-weight: bold;
 }
 
 .project-links a:first-child {
