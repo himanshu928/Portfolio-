@@ -3,84 +3,72 @@ import tictactoe from "../assets/tictactoe8090.png";
 import calculator from "../assets/calculator8090.png";
 import portfolio from "../assets/project1.png";
 
-const Projects = () => {
+const projectsData = [
+  {
+    id: 1,
+    title: "Portfolio Website",
+    description:
+      "Personal portfolio website built using HTML, CSS, and React. Showcases my projects and skills. It is responsive and visually appealing. and easy to navigate.",
+    image: portfolio,
+    tech: ["HTML", "CSS", "React"],
+    github: "https://github.com/himanshu928/Portfolio-",
+    live: "https://bucolic-centaur-5e3546.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Tic Tac Toe Game",
+    description:
+      "A classic Tic Tac Toe game built with HTML, CSS, and JavaScript.",
+    image: tictactoe,
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/himanshu928/Tic-tac-toe-game",
+    live: "https://tictactoe8090.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Calculator App",
+    description:
+      "A simple calculator application built with HTML, CSS & JavaScript. It performs basic arithmetic operations.",
+    image: calculator,
+    tech: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/himanshu928/Calculator-Project",
+    live: "https://calulator8090.netlify.app/",
+  },
+];
+
+const Projects = ({ project }) => {
   return (
     <>
-    <section className="projects" id="projects">
-      <h2 className="section-title">My Projects</h2>
-      <p className="section-subtitle">
-        Some of my recent work
-      </p>
+      <section className="projects" id="projects">
+        <h2 className="section-title">My Projects</h2>
+        <p className="section-subtitle">Some of my recent work</p>
 
-      <div className="projects-grid">
-        <div className="project-card">
-          <img src={portfolio} alt="Project" />
+        <div className="projects-grid">
+          {projectsData.map((project) => (
+            <div className="project-card" key={project.id}>
+              <img src={project.image} alt={project.title} />
 
-          <h3>Portfolio Website</h3>
-          <p>
-            Personal portfolio website built using React.
-          </p>
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
 
-          <div className="tech-stack">
-            <span>React</span>
-            <span>CSS</span>
-            <span>Git</span>
-          </div>
+              <div className="tech-stack">
+                {project.tech.map((tech, index) => (
+                  <span key={index}>{tech}</span>
+                ))}
+              </div>
 
-          <div className="project-links">
-            <a href="https://github.com/himanshu928" target="_blank" className="first-link">GitHub</a>
-            <a href="https://bucolic-centaur-5e3546.netlify.app/" target="_blank" className="live-link">Live</a>
-          </div>
+              <div className="project-links">
+                <a href={project.github} target="_blank" className="first-link">
+                  GitHub
+                </a>
+                <a href={project.live} target="_blank" className="live-link">
+                  Live
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
-      </div>
-    </section>
-
-      <div className="projects-grid projects ">
-        <div className="project-card">
-          <img src={tictactoe} alt="Project" />
-
-          <h3>Tic Tac Toe Game</h3>
-          <p>
-            Tic Tac Toe game built with HTML, CSS, and JavaScript.
-          </p>
-
-          <div className="tech-stack">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JAVASCRIPT</span>
-          </div>
-
-          <div className="project-links">
-            <a href="https://github.com/himanshu928/Tic-tac-toe-game" target="_blank" className="first-link">GitHub</a>
-            <a href="https://tictactoe8090.netlify.app/" target="_blank" className="live-link">Live</a>
-          </div>
-        </div>
-      </div>
-  
-
-      <div className="projects-grid projects ">
-        <div className="project-card">
-          <img src={calculator} alt="Project" />
-
-          <h3>Calculator App</h3>
-          <p>
-            Calculator app built with HTML, CSS, and JavaScript.
-          </p>
-
-          <div className="tech-stack">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JAVASCRIPT</span>
-          </div>
-
-          <div className="project-links">
-            <a href="https://github.com/himanshu928/Calculator-Project" target="_blank" className="first-link">GitHub</a>
-            <a href="https://calulator8090.netlify.app/" target="_blank" className="live-link">Live</a>
-          </div>
-        </div>
-      </div>
-
-
+      </section>
     </>
   );
 };
