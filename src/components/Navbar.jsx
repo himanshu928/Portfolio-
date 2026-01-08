@@ -22,8 +22,8 @@ const Navbar = () => {
         <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
         <li><a href="#home" onClick={() => setMenuOpen(false)}>About</a></li>
         <li><a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a></li>
-        <li><a href="#projects" onClick={() => setMenuOpen(false)}>Portfolio</a></li>
-        <li id="contact" onClick={() => setMenuOpen(false)}><a href="#contact">Contact</a></li>
+        <li><a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a></li>
+        <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
       </ul>
     </nav>
   );
