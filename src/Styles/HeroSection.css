@@ -202,10 +202,11 @@ body{
     margin: 20px auto
   }
   .hero-right .hero-image img {
-    width: 340px;
+    width: 380px;
     height: 250px;
   }
   .hero-right{
-    margin-right: 80px; 
+    margin-right: 100px; 
+    
   }
 } 
