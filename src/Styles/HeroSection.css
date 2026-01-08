@@ -205,7 +205,7 @@ body{
     width: 300px;
     height: 250px;
   }
-  .hero-right .hero-image{
+  .hero-right{
     margin-right: 80px; 
   }
 } 
