@@ -203,11 +203,9 @@ body{
   }
   .hero-right .hero-image img {
     width: 300px;
-    height: 250px;;
+    height: 250px;
   }
-  /* .hero-right .hero-image{
-    margin: 0 auto;
-} */
-}
-
-
+  .hero-right .hero-image{
+    margin-right: 15px;
+  }
+} 
