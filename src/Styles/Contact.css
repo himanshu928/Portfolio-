@@ -1,0 +1,94 @@
+.contact {
+  padding: 50px 10%;
+  background-color: #0f172a;
+  color: #fff;
+}
+
+.contact-wrapper {
+  display: flex;      /* axe layout */
+  gap: 60px;
+  align-items: center;
+}
+
+.Heading-container {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: rgb(247, 235, 7);
+}
+
+/* Left */
+.contact-left {
+  flex: 1;
+}
+
+.contact-left h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+  color: rgb(110, 173, 14);
+}
+
+.contact-left p {
+  color: #ec9999;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.detail span {
+  font-size: 20px;
+}
+
+/* Right */
+.contact-right {
+  flex: 1;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #4e4f51;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #d1d1d1;  
+ }
+
+.contact-form button {
+  background-color: #e17218;
+  color: #1c2c57;
+  padding: 14px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.5s ease;
+}
+
+.contact-form button:hover {
+  background-color: #0ea5e9;
+}
+.linkedin span img {
+  width: 25px;
+  height: 25px;
+
+}
