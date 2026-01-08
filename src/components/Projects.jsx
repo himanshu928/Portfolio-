@@ -1,4 +1,4 @@
-import "./Projects.css";
+import "../Styles/Projects.css";
 import tictactoe from "../assets/tictactoe8090.png";
 import calculator from "../assets/calculator8090.png";
 import portfolio from "../assets/project1.png";
@@ -12,7 +12,7 @@ const projectsData = [
     image: portfolio,
     tech: ["HTML", "CSS", "React"],
     github: "https://github.com/himanshu928/Portfolio-",
-    live: "https://bucolic-centaur-5e3546.netlify.app/",
+    live: "https://portfolio8090.netlify.app/",
   },
   {
     id: 2,

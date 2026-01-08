@@ -1,4 +1,4 @@
-import "./HeroSection.css";
+import "../Styles/HeroSection.css";
 import img from "../assets/myPic.jpg";
 
 function HeroSection() {

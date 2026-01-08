@@ -8,13 +8,16 @@
 
 .section-title {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  color: #f8e838;
 }
 
 .section-subtitle {
   text-align: center;
-  color: #94a3b8;
+  color: #34e620;
   margin-bottom: 30px;
+  font-size: 1.2rem;  
+  margin-top: 5px;   
 }
 
 .projects-grid {
@@ -53,16 +56,17 @@
 
 .project-card h3 {
   margin: 15px 0 10px;
+  color: #3ac210;
 }
 
 .project-card p {
   font-size: 0.9rem;
-  color: #eceffa;
+  color: #e2d111;
   margin-bottom: 12px;
 }
 
 .tech-stack span {
-  background: #237b9c;
+  background: #a00481;
   padding: 8px 12px;
   border-radius: 20px;
   font-size: 12px;
@@ -101,7 +105,7 @@
 }
 
 .project-links a:first-child {
-  border: 1px solid #38bdf8;
+  border: 1px solid #0ab0f8;
   color: #38bdf8;
 }
 
@@ -115,5 +119,34 @@
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1024px) and (min-width: 481px) {
+
+  .projects {
+    padding: 50px 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 2fr;
+  }
+
+  .project-card {
+    padding: 18px;
+  }
+  .project-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+}
+
+
+@media (max-width: 481px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

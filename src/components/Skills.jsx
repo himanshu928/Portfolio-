@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "../Styles/Skills.css";
 
 const skills = [
   { name: "HTML", level: "Advanced" },

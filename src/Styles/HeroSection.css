@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .hero {
   min-height: calc(100vh - 70px);
   display: flex;
@@ -135,5 +139,75 @@
 
 /* Responsive Design */
 
+
+
+@media (max-width: 1024px) and (min-width: 481px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 10px;
+  }
+  .hero-left h1 {
+    font-size: 36px;
+  }
+  hero-left h2 {
+    font-size: 24px;
+  }
+
+  .hero-left h2 {
+    font-size: 22px;
+  }
+  .hero-left{
+    /* max-width: 100%; */
+    margin-top:0px;
+  }
+  .hero-left .hero-buttons {
+    justify-content: center;
+    margin-bottom: 30px;
+  } 
+  .hero-right .hero-image img {
+    width: 340px;
+    height: 300px;
+   
+  }
+}
+  .hero-right {
+    margin-left: 0;
+  }
+
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 0 20px;
+    gap: 15px;
+  }
+  .hero-left h1 {
+    font-size: 28px;
+  }
+  .hero-left h2 {
+    font-size: 20px;
+  }
+  .hero-left p {
+    font-size: 16px;
+  }
+  .hero-left{
+    /* max-width: 100%; */
+    margin-top:0px;
+  }
+  .hero-left .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin: 20px auto
+  }
+  .hero-right .hero-image img {
+    width: 300px;
+    height: 250px;;
+  }
+  /* .hero-right .hero-image{
+    margin: 0 auto;
+} */
+}
 
 
