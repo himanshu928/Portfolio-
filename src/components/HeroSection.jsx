@@ -27,7 +27,7 @@ function HeroSection() {
       </div>
         <div className="hero-right">
           <div className="hero-image">
-            <img src={img} alt="Hero Image" />
+            <img src={img} alt="Hero Image" loading="lazy" />
           </div>
         </div>
     </section>

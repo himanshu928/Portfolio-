@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <img src={logoImage} alt="Logo" />
+      <img src={logoImage} alt="Logo" loading="lazy"/>
 
       {/* Hamburger Icon */}
       <div className="hamburger-menu">

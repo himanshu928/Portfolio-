@@ -29,7 +29,7 @@ function Contact() {
         </div>
 
          <div className="detail linkedin">
-          <span><img src={linkedin} alt="" /></span>
+          <span><img src={linkedin} alt="" loading="lazy"/></span>
           <p>https://www.linkedin.com/in/himanshu-sahu-237b20390/</p>
         </div>
 
